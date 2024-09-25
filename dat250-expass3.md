@@ -2,6 +2,7 @@
 ## Technical Problems
 ## Validation of the installation package
 Downloaded the msi installer for MongoDB. Then created a text file were I added the SHA-256 checksum to the file and gave the file a approprioate name as instructed in the tutorial to verify mongodb packages. Opened up Powershell in the directy containing both the installer and the file containing the SHA-256 checksum, and then verified the package using a script from the tutorial. The result in the screenshot below.
+
 ![validation_of_installation](https://github.com/user-attachments/assets/795ea2d0-0a95-41f9-8a51-d9008b366200)
 CRUD:
 ### Insert
