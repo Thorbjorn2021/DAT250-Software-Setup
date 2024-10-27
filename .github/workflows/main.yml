@@ -3,7 +3,7 @@ name: JAVA CI
 on: [push]
 
 jobs:
-  jpa-test:
+  Addition-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,6 +12,6 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '21'
-          distribution: 'adopt'
+          distribution: 'temurin'
       - name: Run tests
         run: ./gradlew test
