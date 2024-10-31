@@ -17,4 +17,12 @@ class HelloWorldApplicationTests {
 		int two = 2;
 		assertEquals(two, 2);
 	}
+
+	@Test
+	void testSubtraction(){
+		int two = 2;
+		int five = 5;
+		int subtraction = two - five;
+		assertEquals(subtraction, -3);
+	}
 }
